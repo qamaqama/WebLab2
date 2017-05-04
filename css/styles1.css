@@ -1,0 +1,52 @@
+/* STYLE */
+
+
+i{
+    padding-right: 10px;
+    color: lightgrey;
+}
+
+td{
+    padding-left: 20px;
+    border-collapse: collapse;
+}
+
+img{
+    height: 30%;
+}
+
+#gambar{
+    width: 10%;
+}
+
+#desc{
+    height: 10px;
+}
+
+#n{
+    font-style: inherit;
+    font-weight: bold;
+}
+
+#p{
+    color: #e01a1a;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+#s{
+    font-size: 10pt;
+}
+
+
+#d{
+    width: 20%;
+    font-size: 9pt;
+    text-align: left;
+}
+
+#car{
+    width: 60%;
+    margin:0 auto;
+    padding-top: 10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Lab 2</title>
+
+    <!-- Styles : CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles1.css">
+
+    <!-- Script : JS -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Detects the state of readiness for JavaScript code to execute -->
+    <script>
+        $(document).ready(function () {
+            Transform();
+        })
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <center>
+		<h4>
+			Lab Exercise 2 (XML, jQuery, CSS and AJAX)
+			<br/> Multimedia Web Programming (Section 02)
+			<br/><br/>
+		</h4>
+	<center>
+    <b>CAR LIST</b>
+    <hr/>
+
+    <!-- Append of the xml document occurs here -->
+    <div id="car"></div>
+</div>
+
+<!-- Script for getting XML and XSL data -->
+<script>
+    function Transform() {
+        var xml = getXMLData("./car_list.xml");
+        var xsl = getXMLData("./car_list.xsl");
+
+        xsltProcessor = new XSLTProcessor();
+        xsltProcessor.importStylesheet(xsl);
+        var result = xsltProcessor.transformToFragment(xml, document);
+
+        $("#car").append(result);
+    }
+    function getXMLData(url) {
+        return $.ajax({
+            type: "GET",
+            url: url,
+            async: false
+        }).responseXML;
+    }
+</script>
+
+</body>
+</html>

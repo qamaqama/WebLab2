@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="car_list.xsl"?>
+<?xml-stylesheet type="text/css" href="styles1.css"?>
+<car>
+
+    <car_details dev="JS">
+        <name>Proton Persona 1.6 (A)</name>
+        <status>
+            <condition>Used</condition>
+            <year>2010</year>
+            <mileage>55 000 - 59 999</mileage>
+            <capacity>1600 cc</capacity>
+        </status>
+        <price>RM 22 800</price>
+        <picture_name>img/persona.jpg</picture_name>
+        <date>Yesterday, 11:00</date>
+        <region>Selangor - Serdang</region>
+    </car_details>
+	
+	<car_details>
+        <name>Proton Waja 1.5</name>
+        <status>
+            <condition>Used</condition>
+            <year>2005</year>
+            <mileage>170 000 - 179 999</mileage>
+            <capacity>1584 cc</capacity>
+        </status>
+        <price>RM 12 888</price>
+        <picture_name>img/waja.jpg</picture_name>
+        <date>Today, 18:20</date>
+        <region>Selangor - Puchong</region>
+    </car_details>
+</car>
+	
+	<car_details>
+        <name>Proton Inspira 2.0 (A)</name>
+        <status>
+            <condition>Used</condition>
+            <year>2011</year>
+            <mileage>55 000 - 59 999</mileage>
+            <capacity>2000 cc</capacity>
+        </status>
+        <price>RM 39 800</price>
+        <picture_name>img/inspira.jpg</picture_name>
+        <date>Today, 14:30</date>
+        <region>Kuala Lumpur</region>
+    </car_details>
+
+    <car_details>
+        <name>Proton Saga 1.3 (A)</name>
+        <status>
+            <condition>Used</condition>
+            <year>2011</year>
+            <mileage>130 000 - 139 999</mileage>
+            <capacity>1300 cc</capacity>
+        </status>
+        <price>RM 15 888</price>
+        <picture_name>img/saga.jpg</picture_name>
+        <date>Today, 19:19</date>
+        <region>Selangor - Kajang</region>
+    </car_details>
+
+    <car_details>
+        <name>Proton Satria GTI 1.6</name>
+        <status>
+            <condition>Used</condition>
+            <year>2001</year>
+            <mileage>180 000 - 189 999</mileage>
+            <capacity>1800 cc</capacity>
+        </status>
+        <price>RM 16 999</price>
+        <picture_name>img/satria.jpg</picture_name>
+        <date>21 Mar, 20:25</date>
+        <region>Selangor - Bandar Bukit Raja</region>
+    </car_details>
+	
+	<car_details>
+        <name>Proton Exora 1.6 (A)</name>
+        <status>
+            <condition>Used</condition>
+            <year>2011</year>
+            <mileage>100 000 - 109 999</mileage>
+            <capacity>1600 cc</capacity>
+        </status>
+        <price>RM 27 888</price>
+        <picture_name>img/exora.jpg</picture_name>
+        <date>Today, 19:40</date>
+        <region>Selangor - Kajang</region>
+    </car_details>
